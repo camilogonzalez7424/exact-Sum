@@ -62,10 +62,9 @@ public class Main {
                 }
 
             }
-            System.out.println();
-            System.out.print("Peter should buy books whose prices are "+price1+" and "+price2+".");
-            line=br.readLine();
-            line=br.readLine();
+            System.out.println("Peter should buy books whose prices are "+price1+" and "+price2+".\n");
+            line = br.readLine();
+            line = br.readLine();
 
         } while (line != null);
         br.close();
